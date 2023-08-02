@@ -61,7 +61,7 @@ print("Remove duplicate numbers from list",dummy_list)
 
 
 #date video updated      
-employee_dictionary = {
+video_updated = {
    "programming": "1 september 2018",
    "desgining": "3 june 2017",
    "coding": "5 january 2020",
@@ -69,6 +69,8 @@ employee_dictionary = {
 }
 
 def birthDate(name) :
-   x =  employee_dictionary.get(name)
-   print(x)
-birthDate("coding")
+   x =  video_updated.get(name)
+   print("video updated on:",x)
+
+video_name = input("Enter the name of video: ")
+birthDate(video_name)
